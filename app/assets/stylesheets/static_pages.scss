@@ -1,0 +1,45 @@
+.top-page-container {
+  height: 800px;
+  background-image: url("top-page.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.shared-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.application-headline {
+  padding-top: 50px;
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.start-buttons-area {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ideal-image-btn, 
+.oneself-btn {
+  padding: 20px 10px;
+  border-radius: 10px;
+}
+
+.ideal-image-btn {
+  background-color: #339933;
+}
+
+.oneself-btn {
+  background-color: #cc1111;
+}
+
+.ideal-image-btn a, 
+.oneself-btn a {
+  font-size: 24px;
+  color: #ffffff;
+  text-decoration: none;
+}
